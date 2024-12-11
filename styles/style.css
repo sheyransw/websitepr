@@ -1,0 +1,28 @@
+:root {
+    --primary-color:#66785F;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ 
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+Track
+::-webkit-scrollbar-track {
+    display: none;
+}
+
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: var(--primary-color);
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-color);
+}
